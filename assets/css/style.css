@@ -8,6 +8,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -17,7 +18,7 @@ h4,
 h5,
 h6 {
     font-size: 1.6rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Sora", sans-serif;
 }
 
 input,
