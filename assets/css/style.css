@@ -14,6 +14,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    background: #fffaf5;
 }
 /* Common */
 a {
@@ -102,4 +103,124 @@ button {
     min-width: 118px;
     margin-left: 36px;
     transition: background-color, color, 0.5s ease-in-out;
+}
+
+/* HERO */
+.hero {
+    padding: 74px 0;
+}
+/* HERO MEDIA */
+.hero__media {
+    position: relative;
+    display: flex;
+    padding-bottom: 94px;
+}
+.hero__thumb-big {
+    border: 3px solid #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 388px;
+    height: 488px;
+    border-radius: 16px;
+    background: #fe997b;
+}
+
+/* Big picture */
+.thumb-big {
+    max-width: 457.238px;
+    max-height: 828.145px;
+    border-radius: 16px;
+    object-fit: contain;
+}
+
+.hero-decorator {
+    position: absolute;
+    z-index: -1;
+}
+
+.decorator-1 {
+    bottom: 10px;
+    left: -58px;
+}
+
+.decorator-2 {
+    top: 17px;
+    right: -45px;
+}
+
+/* Small picture */
+.hero__thumb-small {
+    position: relative;
+    margin-left: -24px;
+    margin-bottom: -56px;
+    border: 2px solid #fcdde0;
+    align-self: flex-end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 186px;
+    height: 244px;
+    border-radius: 16px;
+    background: #faa7ad;
+}
+
+.thumb-small {
+    object-fit: contain;
+    max-width: 182px;
+    max-height: 276px;
+}
+/* List */
+.hero__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero__list-wrapper {
+    position: absolute;
+    left: 130px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+
+    padding: 18px 14px;
+    width: 250px;
+    height: 156px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+}
+
+.hero__separator {
+    margin: 19px 0;
+    height: 2px;
+    background: #f2f2f2;
+    border-radius: 99px;
+}
+
+.hero__list-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--background, #fec23f);
+    overflow: hidden;
+}
+
+.hero__list-title {
+    color: #181e52;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero__list-skeleton {
+    margin-top: 7px;
+    width: var(--width, 120px);
+    height: 4px;
+    border-radius: 10px;
+    opacity: 0.08;
+    background: #000958;
 }
