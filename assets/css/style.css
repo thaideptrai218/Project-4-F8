@@ -109,6 +109,13 @@ button {
 .hero {
     padding: 74px 0;
 }
+
+.hero__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
 /* HERO MEDIA */
 .hero__media {
     position: relative;
@@ -223,4 +230,58 @@ button {
     border-radius: 10px;
     opacity: 0.08;
     background: #000958;
+}
+/* Hero CONTENT */
+.hero__content {
+}
+
+.hero__title {
+    color: #000958;
+    font-family: Sora;
+    font-size: 66px;
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.hero__desc {
+    max-width: 390px;
+    margin-top: 24px;
+    color: #656689;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.87;
+}
+
+.hero__action {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+.hero__action-link {
+    min-width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 31px;
+    background: #ff5b2e;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+    border: none;
+}
+
+.hero__action-contact {
+    color: #000958;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration-line: underline;
 }
